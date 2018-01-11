@@ -1,5 +1,5 @@
 package bot;
-//testing
+//new branch for areeb
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -30,9 +30,6 @@ public class WebTableAttempt {
 		WebDriver driver = new ChromeDriver(options);										
 		driver.get(Constants.appUrl);
 		driver.manage().window().maximize();
-		
-
-		
 		String actualTitle = driver.getTitle();		// fetch the title of the web page and save it into a string variable					
 		if (Constants.expectedTitle.equals(actualTitle)) {	
 			System.out.println("Verification Successful - The correct title is displayed on the web page.");
@@ -48,16 +45,10 @@ public class WebTableAttempt {
 			if(w==0) {		//Happens the first time the program is called
 				WebElement username = driver.findElement(By.id("Pin"));
 				username.clear();
-				//username.sendKeys(Integer.toString(initialId));			
-				
-				((JavascriptExecutor)driver).executeScript("arguments[0].value = arguments[1];", username,initialId);
-				
+				((JavascriptExecutor)driver).executeScript("arguments[0].value = arguments[1];", username,initialId);				
 				WebElement password = driver.findElement(By.id("Password"));
-				password.clear();
-				//password.sendKeys(pwd);	
-				
-				((JavascriptExecutor)driver).executeScript("arguments[0].value = arguments[1];", password,pwd);
-				
+				password.clear();		
+				((JavascriptExecutor)driver).executeScript("arguments[0].value = arguments[1];", password,pwd);				
 				WebElement SignInButton = driver.findElement(By.id("LoginButton"));
 				SignInButton.click();
 				WebElement ErrorMessage = driver.findElement(By.id("msgmessage"));						
