@@ -89,7 +89,7 @@ public class WebTableAttempt {
 					wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("msgmessage")));
 				}
 			}
-			
+
 			if (loginFailed == false) {	
 				wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("msgmessage")));
 				//w+=1;	
