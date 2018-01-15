@@ -14,9 +14,9 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class WebTableAttempt {
 //-------------------------------------------------------------------------------
-	public static final int number = 1;			//BTW: MOST RECENT WAS:		|
-	public static final int initialId = 20000005;	//20034130					|
-	public static final String fileLocation = "C:/Users/Admin/Desktop/testingshit.txt";
+	public static final int number = 5;			//BTW: MOST RECENT WAS:		|
+	public static final int initialId = 20000067;	//20034130					|
+	public static final String fileLocation = "C:/Users/Admin/Desktop/advait.txt";
 	//-------------------------------------------------------------------------------
 //	ALWAYS REMEMBER TO CLOSE ALL OTHER WINDOWS AND MINIMIZE CONSOLE
 	public static int currentId = initialId;		
