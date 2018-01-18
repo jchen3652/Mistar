@@ -1,5 +1,5 @@
 package bot;
-
+ 
 public class Constants {
 	//------------------------------------------------TIMER CONSTANTS-----------------------------------------------------------------------//
 	/**How long to wait if login was unsuccessful*/ 						public static final int msDelayAfterLoginFailure = 5; 
