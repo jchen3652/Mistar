@@ -3,6 +3,7 @@ package stringmanager;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+
 import com.google.common.base.Joiner;
 
 public class StringUtils {
@@ -18,10 +19,12 @@ public class StringUtils {
 	}
 
 	/**
-	   * Replaces tab separated list with real list
-	   * @param str Name of String to clean
-	   * @return Returns proper list
-	   */
+	 * Replaces tab separated list with real list
+	 * 
+	 * @param str
+	 *            Name of String to clean
+	 * @return Returns proper list
+	 */
 	public static List<String> listMaker(String str) {
 		List<String> list = Arrays.asList(str.split("	"));
 		list = list.stream().map(String::trim).collect(Collectors.toList());
