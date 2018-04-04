@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-//new branch for areeb
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +18,7 @@ public class WebTableAttempt {
 	// -------------------------------------------------------------------------------
 	public static final int number = 100; // BTW: MOST RECENT WAS: |
 	public static final int initialId = 20000067; // 20034130 |
-	public static final String fileLocation = "C:/Users/Admin/Desktop/advait.txt";
+	public static final String fileLocation = "D:/Users/James/Desktop/advait.txt";
 	// -------------------------------------------------------------------------------
 	// ALWAYS REMEMBER TO CLOSE ALL OTHER WINDOWS AND MINIMIZE CONSOLE
 	public static int currentId = initialId;

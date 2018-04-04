@@ -17,9 +17,9 @@ public class Constants {
 	/** What URL to search */
 	public static final String appUrl = "https://mistar.oakland.k12.mi.us/novi/parentportal";
 	/** Where the Chrome Web Driver is located */
-	public static final String webDriverLocation = "C:/Users/Admin/Documents/chromedriver.exe";
+	public static final String webDriverLocation = "chromedriver.exe";
 	/** Where the Chrome user data folder is */
-	public static final String userDataLocation = "C:/Users/Admin/AppData/Local/Google/Chrome/User Data";
+	public static final String userDataLocation = "C:/Users/James/AppData/Local/Google/Chrome/User Data";
 	/** x coordinate click to do nothing */
 	public static final int dummyXCoordinate = 933;
 }
